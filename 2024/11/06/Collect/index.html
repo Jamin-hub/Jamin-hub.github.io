@@ -26,7 +26,7 @@
 <meta property="og:description" content="整理一些有关嵌入式，单片机学习的网站，视频链接及一些软件资源，分享给大家！">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-11-06T14:12:00.000Z">
-<meta property="article:modified_time" content="2024-11-07T13:41:02.669Z">
+<meta property="article:modified_time" content="2024-11-07T15:02:55.183Z">
 <meta property="article:author" content="Jamin">
 <meta property="article:tag" content="Enbeded">
 <meta property="article:tag" content="STM32">
@@ -468,12 +468,8 @@ mjx-container[display="true"] + br {
 
         <div class="article-title relative w-full">
             
-                
-                
-                <img src="/image/Collect/headwall.png" alt="Collect" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75"/>
-                
-                <div class="w-full flex items-center absolute bottom-0 justify-start">
-                    <h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-semibold backdrop-blur-lg rounded-xl border border-border-color ">Collect</h1>
+                <div class="w-full flex items-center pt-6 justify-start">
+                    <h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3">Collect</h1>
                 </div>
             
             </div>
@@ -499,8 +495,8 @@ mjx-container[display="true"] + br {
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-11-07 21:41:02</span>
-            <span class="mobile">2024-11-07 21:41:02</span>
+            <span class="desktop">2024-11-07 23:02:55</span>
+            <span class="mobile">2024-11-07 23:02:55</span>
             <span class="hover-info">更新</span>
         </span>
     
@@ -563,9 +559,22 @@ mjx-container[display="true"] + br {
 
         <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
             <h3 id="STM32入门教程视频"><a href="#STM32入门教程视频" class="headerlink" title="STM32入门教程视频"></a>STM32入门教程视频</h3><ol>
-<li><a class="link" target="_blank" rel="noopener" href="https://www.bilibili.com/video/av58748812">STM32CubeMX&amp;HAL 教学快速STM32基础功能学习系列-哔哩哔哩 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link" target="_blank" rel="noopener" href="https://www.bilibili.com/video/av990827294">STM32智能小车stm32f103c8t6-哔哩哔哩 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link" target="_blank" rel="noopener" href="https://www.bilibili.com/video/av701145785">0基础手把手带你STM32入门-嘉立创-HAL库-哔哩哔哩 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link" target="_blank" rel="noopener" href="https://www.bilibili.com/video/av58748812">STM32CubeMX&amp;HAL 教学快速STM32基础功能学习系列-哔哩哔哩 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><blockquote>
+<p>比较适合快速上手stm32cubemx与keil的使用，以及熟悉建立项目及编程方法和常用函数调用。</p>
+</blockquote>
+</li>
+<li><a class="link" target="_blank" rel="noopener" href="https://www.bilibili.com/video/av990827294">STM32智能小车stm32f103c8t6-哔哩哔哩 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><strong>视频付费资料见213群文件</strong><blockquote>
+<p>项目实战，跟着教程一步一步制作智能小车。循迹、PID、OpenMV。</p>
+</blockquote>
+</li>
+<li><a class="link" target="_blank" rel="noopener" href="https://www.bilibili.com/video/av701145785">零基础手把手带你STM32入门-嘉立创-HAL库-哔哩哔哩 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><blockquote>
+<p>从电路原理到PCB设计，再到单片机编程，硬件软件一步到位。</p>
+</blockquote>
+</li>
+<li><a class="link" target="_blank" rel="noopener" href="https://www.bilibili.com/video/av892948098">STM32入门物联网F103-HAL库-蓝牙-ESP8266-哔哩哔哩 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><blockquote>
+<p>面向项目，讲得比较细，对函数功能及原理逐步讲解。学习各种驱动及外设。</p>
+</blockquote>
+</li>
 </ol>
 
         </div>
@@ -633,12 +642,12 @@ mjx-container[display="true"] + br {
       function loadWaline() {
         init({
           el: '#waline',
-          serverURL: 'https://example.example.com',
+          serverURL: 'https://pinglun-n8qm44eni-kryzis-projects.vercel.app',
           lang: 'zh-CN',
           dark: 'body[class~="dark-mode"]',
           reaction: false,
           requiredMeta: ['nick', 'mail'],
-          emoji: [],
+          emoji: ['https://unpkg.com/@waline/emojis@1.2.0/tieba','https://unpkg.com/@waline/emojis@1.2.0/qq'],
           
           
         });
